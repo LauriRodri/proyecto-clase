@@ -12,7 +12,7 @@ public class MainMenuManager : MonoBehaviour
     // Cambiar a la escena del juego
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 1"); // Cambia este nombre por el real
+        SceneManager.LoadScene("level1"); // Cambia este nombre por el real
     }
 
     // Mostrar el panel de configuración
