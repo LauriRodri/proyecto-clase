@@ -1,2 +1,2 @@
 # proyecto-clase
-Repositorio de práctica de GitHub
+Repositorio de práctica de GitHub (EDITENME)  
