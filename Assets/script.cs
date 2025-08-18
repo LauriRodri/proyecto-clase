@@ -27,11 +27,17 @@ public class MainMenuManager : MonoBehaviour
         settingsPanel.SetActive(false);
     }
 
-    // Salir del juego
+  
     public void ExitGame()
-    {
-        Debug.Log("Saliendo del juego...");
-        Application.Quit();
-    }
+{
+    Debug.Log("Saliendo del juego...");
+
+#if UNITY_EDITOR
+    UnityEditor.EditorApplication.isPlaying = false;
+#else
+    Application.Quit();
+#endif
+}
+
 }
 

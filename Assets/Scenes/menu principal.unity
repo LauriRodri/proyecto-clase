@@ -809,7 +809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116, y: 263}
+  m_AnchoredPosition: {x: -103, y: 201}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645771589
@@ -2198,6 +2198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5812028539507744339, guid: 2ac137e803ce4e044aa9ae613e0ab466, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f8c18df8e36ff304191acd83b85f4440, type: 3}
     - target: {fileID: 6159674852028239593, guid: 2ac137e803ce4e044aa9ae613e0ab466, type: 3}
       propertyPath: m_Name
       value: GameObject musica
